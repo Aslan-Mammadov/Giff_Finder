@@ -29,3 +29,14 @@ ul{
     padding-left:0;
     text-align: center;
 }
+
+input{
+    width: 75%;
+    font-size:25px;
+    padding:5px;
+    margin-right:10px;
+    border-radius: 10px;
+    display: block;
+    margin:auto;
+}
+
