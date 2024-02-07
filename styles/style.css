@@ -40,3 +40,13 @@ input{
     margin:auto;
 }
 
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: center;
+    display: block;
+    margin: auto;
+    margin-top:20px;
+    border-radius: 10px;
+}
+
