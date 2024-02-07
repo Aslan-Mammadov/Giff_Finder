@@ -13,3 +13,19 @@ h1{
     margin-top:20px;
     font-family: 'Orbitron', sans-serif;
 }
+
+li{
+    list-style-type: none;
+    font-size: 1.5rem;
+    padding:10px;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+ul{
+    padding-left:0;
+    text-align: center;
+}
