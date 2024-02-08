@@ -24,3 +24,15 @@ searchBtn.addEventListener('click', async ()=>{
         console.log(error)
       }
 });
+
+
+let btn=document.querySelector('.js-menu');
+let nav=document.querySelector('nav');
+
+btn.addEventListener('click', () => {
+    if(nav.style.display==='none'){
+     nav.style.display='block'
+    }else{
+        nav.style.display='none';
+    }
+})

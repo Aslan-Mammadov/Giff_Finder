@@ -85,6 +85,12 @@ img{
 }
 nav{
     display:none;
+    background-color: rgb(39, 37, 37);
+}
+header button{
+    background-color: rgb(71, 70, 70);
+    color:rgb(195, 188, 188);
+    margin-right:10px;
 }
 
 
