@@ -93,5 +93,59 @@ header button{
     margin-right:10px;
 }
 
+@media screen and (min-width: 768px) {
+   /* header{
+    display: flex;
+   }
+   
+  
+  
+   ul{
+    display: flex;
+    margin:auto;
+    flex-direction: row-reverse;
+    
+   } */
+   h1{
+    margin-left:20px;
+    padding:20px;
+    align-self: center;
+   } 
+    .menu-btn{
+    display:none
+   }
+
+   input{
+    width: 50%;
+    height: 60px;
+   }
+
+   label {
+    display: block;
+    text-align: center;
+   }
+   header{
+    display: flex;
+   }
+   nav{
+    width: 50%;
+    display: flex;
+    background: none;
+   }
+   ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+   }
+   li{
+    align-self: center;
+   }
+   .button-submit{
+    width: 200px;
+    height: 40px;
+   }
+}
+
+
 
 
