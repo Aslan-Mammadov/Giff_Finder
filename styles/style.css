@@ -79,8 +79,8 @@ footer{
     font-size: 20px;
 }
 img{
-    width:370px;
-    margin:10px 0;
+    width:95%;
+    margin:10px auto;
     border:10px groove rgb(240, 240, 240);
 }
 nav{
