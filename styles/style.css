@@ -56,7 +56,7 @@ label{
     font-size:25px;
 }
 .container{
-    width: 90%;
+    width: 95%;
     margin: auto;
     margin-top:25px;
 }
@@ -76,6 +76,11 @@ footer{
     font-family: 'Orbitron', sans-serif;
     margin-left: 20px;
     font-size: 20px;
+}
+img{
+    width:370px;
+    margin:10px 0;
+    border:10px groove rgb(240, 240, 240);
 }
 
 
