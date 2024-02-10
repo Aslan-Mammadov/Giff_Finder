@@ -7,9 +7,13 @@ let inputNumber=document.querySelector('.js-number');
 
 
 searchBtn.addEventListener('click', async ()=>{
-    container.innerHTML = '' // This line of empties the container every time you click so the previusly searched items disappear
     let userSearchValue=userSearch.value;
     let inputNumberValue=inputNumber.value;
+    if(userSearchValue===''||inputNumberValue===''){
+        alert('Please fill up both fields below')
+        return 
+    }
+    container.innerHTML = '' // This line of empties the container every time you click so the previusly searched items disappear
     try{
        let response= await fetch(`${baseUrl}/v1/gifs/search?api_key=${apiKey}&q=${userSearchValue}&limit=${inputNumberValue}`) // fetch brings us response type promise.
        let responseJson= await response.json(); // in order to work with the response promise we use json() to swith it into json file.
