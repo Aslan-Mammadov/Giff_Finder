@@ -14,6 +14,7 @@ searchBtn.addEventListener('click', async ()=>{
        let response= await fetch(`${baseUrl}/v1/gifs/search?api_key=${apiKey}&q=${userSearchValue}&limit=${inputNumberValue}`) // fetch brings us response type promise.
        let responseJson= await response.json(); // in order to work with the response promise we use json() to swith it into json file.
        let imgUrl=responseJson.data
+       console.log(responseJson.data)
     
        for (let i=0; i<imgUrl.length; i++){ //Here we iterate the imgUrl array
          let html=container.innerHTML;
