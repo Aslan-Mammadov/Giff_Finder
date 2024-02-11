@@ -1,6 +1,6 @@
 const baseUrl='https://api.giphy.com';
 const apiKey='YWV6cQZuVWJwjMabuBcxhlqZzqSf5DLk';
-const searchBtn=document.querySelector('.js-btn')
+const searchBtn=document.querySelector('.js-btn');
 const container=document.querySelector('.js-container');
 let userSearch=document.querySelector('.js-search');
 let inputNumber=document.querySelector('.js-number');
@@ -9,7 +9,7 @@ let inputNumber=document.querySelector('.js-number');
 searchBtn.addEventListener('click', async ()=>{
     let userSearchValue=userSearch.value;
     let inputNumberValue=inputNumber.value;
-    if(userSearchValue===''||inputNumberValue===''){
+    if(userSearchValue==''||inputNumberValue==''){    // Here we check if the user filled both the input fields before running the code.
         alert('Please fill up both fields below')
         return 
     }
@@ -31,12 +31,9 @@ searchBtn.addEventListener('click', async ()=>{
 
 
 let btn=document.querySelector('.js-menu');
-let nav=document.querySelector('nav');
+let nav=document.querySelector('ul');
 
-btn.addEventListener('click', () => {
-    if(nav.style.display==='none'){
-     nav.style.display='block'
-    }else{
-        nav.style.display='none';
-    }
+btn.addEventListener('click', () => {   //this function is for hamburger menu.(mobile version)
+     nav.classList.toggle('nav-display');
+    
 })
