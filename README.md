@@ -9,4 +9,6 @@
 * Menu Items are not functional as of now but they will gain functionality
 * I will be adding setting options and log in option
 * The app will let you to create your own accound and save your favorite giffs in the future
+  ### Here is the link for the website
+  * https://aslan-mammadov.github.io/Giff_Locator/
   
